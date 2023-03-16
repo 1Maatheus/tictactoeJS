@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jogo da Velha! :D</title>
+  </head>
+  <body>
+    <h1 class="title">TIC TAC TOE</h1>
+
+    <form class="inputs">
+      <label class="label" for="player1"
+        ><img class="img img-1" src="./assets/x.png"
+      /></label>
+      <input
+        class="names"
+        type="text"
+        id="player1"
+        placeholder="Nome do Jogador 1"
+      />
+      <label class="label" for="player2"
+        ><img class="img img-2" src="./assets/o.png" alt=""
+      /></label>
+      <input
+        class="names"
+        type="text"
+        id="player2"
+        placeholder="Nome do Jogador 2"
+      />
+    </form>
+    <div class="button">
+      <button id="start">Começar nova rodada!</button>
+    </div>
+    <h2>Vez de: <span id="turnPlayer"></span></h2>
+
+    <div class="board">
+      <section id="gameBoard">
+        <span class="cursor-pointer" data-region="0.0"></span>
+        <span class="cursor-pointer" data-region="0.1"></span>
+        <span class="cursor-pointer" data-region="0.2"></span>
+        <span class="cursor-pointer" data-region="1.0"></span>
+        <span class="cursor-pointer" data-region="1.1"></span>
+        <span class="cursor-pointer" data-region="1.2"></span>
+        <span class="cursor-pointer" data-region="2.0"></span>
+        <span class="cursor-pointer" data-region="2.1"></span>
+        <span class="cursor-pointer" data-region="2.2"></span>
+      </section>
+    </div>
+  </body>
+</html>
