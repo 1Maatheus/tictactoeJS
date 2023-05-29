@@ -85,7 +85,9 @@ function disableRegion(element) {
 
 function handleWin(regions) {
   regions.forEach(function (region) {
-    document.querySelector('[data-region="' + region + '"]').classList.add("win");
+    document
+      .querySelector('[data-region="' + region + '"]')
+      .classList.add("win");
   });
   const playerName = document.getElementById(turnPlayer).value;
   document.querySelector("h2").innerHTML = playerName + " Venceu!";

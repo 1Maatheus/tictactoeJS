@@ -7,8 +7,8 @@ body {
   font-family: "Fredoka One", cursive;
   background: linear-gradient(
     90deg,
-    rgba(183, 179, 255, 1) 0%,
-    rgba(73, 205, 232, 1) 100%
+    rgb(141, 225, 250) 0%,
+    rgb(210, 241, 247) 100%
   );
   max-width: 100vw;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 #start:hover {
-  background-color: #727272;
+  background-color: #a3a3a3;
   color: white;
 }
 
@@ -103,7 +103,7 @@ h2 {
 }
 
 #gameBoard span {
-  background-color: #d0c1fc;
+  background-color: #ffffff;
   display: grid;
   place-content: center;
   font-size: 5rem;
